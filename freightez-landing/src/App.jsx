@@ -1,6 +1,8 @@
 // import "./App.css";
-import Navbar from "./components/Navbar";
+import Features from "./components/Features";
+import FeaturesKeepMoving from "./components/FeaturesKeepMoving";
 import UpperSection from "./components/UpperSection";
+import WhyChooseUsSection from "./components/WhyChooseUsSection";
 
 function App() {
   return (
@@ -10,6 +12,9 @@ function App() {
       </div> */}
 
       <UpperSection />
+      <WhyChooseUsSection />
+      <FeaturesKeepMoving />
+      <Features />
     </>
   );
 }

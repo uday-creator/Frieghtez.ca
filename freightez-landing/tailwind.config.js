@@ -4,7 +4,8 @@ export default {
   theme: {
     extend: {
       animation: {
-        "spin-slow": "spin-slow 20s linear infinite",
+        "spin-slow": "spin 10s linear infinite",
+        "spin-medium": "spin 6s linear infinite",
       },
       keyframes: {
         "spin-slow": {
