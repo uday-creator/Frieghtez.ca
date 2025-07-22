@@ -6,9 +6,9 @@ const Features = () => {
     <div className="flex justify-center mt-5">
       <div className="grid grid-cols-1 md:grid-cols-2 gap-6 w-11/12 md:w-3/5 lg:w-3/4">
         {/* Left Card */}
-        <div className="flex items-center p-6 bg-white rounded-2xl shadow-sm border">
+        <div className="flex items-center p-3 bg-white rounded-2xl shadow-sm border">
           {/* Icon */}
-          <div className="w-45 mr-6 mt-10">
+          <div className="w-45 mr-6">
             <img src={Im2} alt="Smart App Graphic" />
           </div>
           {/* Text */}
