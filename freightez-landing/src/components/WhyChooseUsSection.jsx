@@ -29,7 +29,10 @@ function WhyChooseUsSection() {
         </div>
 
         {/* Feature 2 */}
-        <div className="bg-white border border-gray-200 p-6 rounded-xl shadow text-left">
+        <div
+          className="bg-white border p-6 rounded-xl shadow-sm text-left
+        border-[#D1D5DB] bg-gradient-to-b from-white to-[#F6F7F9]"
+        >
           <div className="mb-4">
             <span className="inline-block bg-gray-100 text-black p-2 rounded">
               <FileText className="w-6 h-6" />
@@ -40,7 +43,10 @@ function WhyChooseUsSection() {
         </div>
 
         {/* Feature 3 */}
-        <div className="bg-white border border-gray-200 p-6 rounded-xl shadow text-left">
+        <div
+          className="bg-white border p-6 rounded-xl shadow-sm text-left
+        border-[#D1D5DB] bg-gradient-to-b from-white to-[#F6F7F9]"
+        >
           <div className="mb-4">
             <span className="inline-block bg-gray-100 text-black p-2 rounded">
               <Mail className="w-6 h-6" />

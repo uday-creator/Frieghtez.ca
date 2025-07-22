@@ -1,7 +1,12 @@
+import Logo from "../assets/Vector.png";
+
 function Navbar() {
   return (
-    <nav className="flex items-center justify-between w-[80%] max-w-7xl mx-auto px-8 py-3 bg-white rounded-full shadow-md">
+    <nav className="flex items-center justify-between w-[80%] max-w-6xl mx-auto px-6 py-1 bg-white rounded-full shadow-md">
       {/* Logo */}
+      {/* <nav class="flex items-center px-6 py-4 bg-white">
+        <img src={Logo} alt="Logo" class="h-10 w-auto mr-4" />
+      </nav> */}
       <div className="text-xl font-semibold">
         <span className="italic text-gray-800">Freight</span>
         <span className="font-extrabold text-orange-500">EZ</span>

@@ -7,10 +7,6 @@ import WhyChooseUsSection from "./components/WhyChooseUsSection";
 function App() {
   return (
     <>
-      {/* <div className="bg-red-500 text-white p-4">
-        If you see a red box, Tailwind is working!
-      </div> */}
-
       <UpperSection />
       <WhyChooseUsSection />
       <FeaturesKeepMoving />

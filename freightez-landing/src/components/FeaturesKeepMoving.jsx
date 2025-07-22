@@ -15,7 +15,7 @@ const FeaturesKeepMoving = () => {
           compliant, and always in control.
         </p>
       </div>
-      <div className="mt-12 grid gap-2 grid-cols-1 md:grid-cols-3 max-w-5xl mx-auto ">
+      <div className="mt-12 grid gap-1 grid-cols-1 md:grid-cols-3 max-w-5xl mx-auto ">
         <TripTracker />
 
         <div className="w-full md:col-span-2 rounded-xl border border-gray-300 p-2">
