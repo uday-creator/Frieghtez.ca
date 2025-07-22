@@ -1,5 +1,6 @@
 import React from "react";
-
+import Im1 from "../assets/Group583.png";
+import Im2 from "../assets/Group592.png";
 const Features = () => {
   return (
     <div className="flex justify-center mt-5">
@@ -7,8 +8,8 @@ const Features = () => {
         {/* Left Card */}
         <div className="flex items-center p-6 bg-white rounded-2xl shadow-sm border">
           {/* Icon */}
-          <div className="w-45 mr-6">
-            <img src="/icons/app-graphic.svg" alt="Smart App Graphic" />
+          <div className="w-45 mr-6 mt-10">
+            <img src={Im2} alt="Smart App Graphic" />
           </div>
           {/* Text */}
           <div>
@@ -30,7 +31,7 @@ const Features = () => {
         <div className="flex items-center p-6 bg-white rounded-2xl shadow-sm border">
           {/* Icon */}
           <div className="w-45 mr-6">
-            <img src="/icons/speedometer.svg" alt="Fleet Data" />
+            <img src={Im1} alt="Fleet Data" />
           </div>
           {/* Text */}
           <div>
