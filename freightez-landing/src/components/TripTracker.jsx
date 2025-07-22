@@ -11,7 +11,7 @@ const steps = [
 const TripTracker = () => {
   return (
     <div className="rounded-xl border border-gray-300 p-4 w-72 bg-white">
-      <div className="flex flex-col gap-3 relative">
+      <div className="flex flex-col gap-5 relative">
         {steps.map((step, index) => (
           <div
             key={step.label}
