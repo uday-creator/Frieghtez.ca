@@ -38,9 +38,21 @@ function Navbar() {
           Login
         </button>
 
-        <button className="px-5 py-2 rounded-full bg-gradient-to-r from-blue-900 to-black text-white text-sm shadow-lg hover:opacity-90">
+        {/* <button className="px-5 py-2 rounded-full bg-gradient-to-r from-blue-900 to-black text-white text-sm shadow-lg hover:opacity-90">
           Schedule a Demo
-        </button>
+        </button> */}
+
+        <div className="flex flex-col items-center">
+          <button className="px-5 py-2 rounded-full bg-gradient-to-r from-blue-900 to-black text-white text-sm shadow-lg hover:opacity-90">
+            Schedule a Demo
+          </button>
+          <a
+            href="mailto:hello@freightez.ca"
+            className="text-[11px] text-blue-500 hover:underline mt-1"
+          >
+            hello@freightez.ca
+          </a>
+        </div>
       </div>
     </nav>
   );
