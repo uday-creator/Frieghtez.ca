@@ -46,7 +46,7 @@ function Navbar() {
         href="mailto:hello@freightez.ca"
         target="_blank"
         rel="noopener noreferrer"
-        className="px-5 py-2 rounded-full bg-gradient-to-r from-blue-900 to-black text-white text-sm shadow-lg hover:opacity-90 inline-block text-center"
+        className="px-5 py-4 rounded-full bg-gradient-to-r from-blue-900 to-black text-white text-sm shadow-lg hover:opacity-90 inline-block text-center"
       >
         Schedule a Demo
       </a>
