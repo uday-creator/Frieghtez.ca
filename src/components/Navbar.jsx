@@ -42,17 +42,11 @@ function Navbar() {
           Schedule a Demo
         </button> */}
 
-        <div className="flex flex-col items-center">
+       <a href="mailto:hello@freightez.ca" target="_blank" rel="noopener noreferrer">
           <button className="px-5 py-2 rounded-full bg-gradient-to-r from-blue-900 to-black text-white text-sm shadow-lg hover:opacity-90">
             Schedule a Demo
           </button>
-          <a
-            href="mailto:hello@freightez.ca"
-            className="text-[11px] text-blue-500 hover:underline mt-1"
-          >
-            hello@freightez.ca
-          </a>
-        </div>
+        </a>
       </div>
     </nav>
   );
